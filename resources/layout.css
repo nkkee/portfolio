@@ -1,0 +1,241 @@
+/*
+ * Add your CSS styles here
+ * 
+ */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #f4f4f4;
+}
+
+
+
+p {
+	line-height: 24px;
+	color: #555;
+	padding: 1px 5px;
+}
+
+
+
+/*header {
+	color: black;
+	margin: 0;
+}
+
+
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	background: none;
+	margin: 0;
+	float: left;
+
+}
+
+header h1 {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+} */
+
+#mainContainer {
+	max-width: 2000px;
+	min-height: 75%;
+	margin: 0 auto;
+}
+
+.vertical-container {
+	position: relative;
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*height: 40%;
+	display: -webkit-flex;
+	display: 		flex;
+	-webkit-align-items: center;
+			align-items: center;
+	-webkit-justify-content: center;
+			justify-content: center;*/
+
+}
+
+.hide {
+	display: none;
+}
+
+.content {
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+.sectionContainer {
+	
+}
+
+
+
+#homeTextContainer {
+	display: inline-block;
+	position: relative;
+	top: 36%
+	color: #FFFFFF;
+}
+
+#text-slider div {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+
+#sectionHome {
+	
+	height: auto;
+	padding: 200px;
+	padding-bottom: 300px;
+	text-align: center;
+	background-image: url(../resources/picturebeach.jpg);
+	background-size: cover;
+	/*color: 	#1E90FF;*/
+	color: white;
+}
+
+#sectionHome p {
+	color: 	white;
+	font-size: 120%;
+}
+
+
+
+#sectionNow {
+	height: auto;
+	background-color: #4B0082;
+
+	padding: 50px;
+	padding-bottom: 300px;
+	color: white;
+}
+
+#sectionNow ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#sectionNow ul li {
+	
+	display: inline;
+	/*padding-right: 15%;
+	float: left;*/
+}
+
+
+#sectionUpcoming {
+	height: auto;
+
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 300px;
+}
+
+#sectionSubscribe {
+	padding: 100px;
+	height: auto;
+}
+
+#header  {
+	border-bottom: 1px solid #999;
+}
+
+#nav {
+	margin: 0 20px 0 0;
+	float: left;
+  /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
+}
+
+#main {
+	border: 1px solid black;
+	margin: auto;
+	background: orange;
+	float: right;
+	columns: 3;
+
+  /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
+  /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
+}
+
+#pageWrapper {
+	border: 5px solid black;
+}
+
+
+#sectionChoice {
+	padding: 50px;
+}
+
+#copyright {
+	position: static;
+	bottom: 0;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+
+#connect {
+	position: static;
+	bottom: 0;
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-right: 10px;
+}
+
+#contact-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	padding:20px;
+	resize: both;
+	overflow: auto;
+	/*left: -425px;
+	top: -257px;*/
+}
+
+.box {
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	margin: 1em;
+	border: 2px solid white;
+}
+
+
+/*Blog*/
+
+#navSideBar {
+	margin: auto;
+	border: 5px solid blue;
+	border-right: none;
+	padding-top: 30px;
+	padding-right: 70px;
+	float: right;
+	font-size: 150%;
+}
+
+#navBar {
+	position: fixed;
+	float: right;
+}
+
+/* Ignore this for now, it is special code needed to fix the layout after using the "float" rules */
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }

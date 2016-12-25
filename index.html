@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- For front end development, use: HTML Boilerplate, Foundation by Zurb, Motion UI by Zurb (for CSS animation), and Greensock GSap (for Javascript animation) -->
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicholas Kee</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="resources/foundation/js/vendor/jquery.js" charset="utf-8"></script>
+  <script src="resources/foundation/js/vendor/foundation.min.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" type="text/css" href="resources/foundation/css/foundation.css">
+  <!--<link rel="stylesheet" type="text/css" href="/resources/foundation/css/app.css">-->
+  <link rel="stylesheet" href="resources/layout.css" type="text/css">
+</head>
+
+<body ng-controller="pageLayoutController">
+  <div id="loadingMask"></div>
+  <div id="navBar">
+    <div class="top-bar">
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="index.html"><h6>HOME</h6></a></li>
+          <li><a href="about.html"><h6>ABOUT</h6></a></li>
+          <li class="is-dropdown-submenu-parent">
+            <a href="blog.html"><h6>BLOG</h6></a>
+            <ul class="menu">
+              <li><a href="#">Recent</a></li> 
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">QYL</a></li>
+              <li><a href="#">Watson</a></li>
+              <li><a href="#">Tech</a></li>
+              <li><a href="#">Coding</a></li>
+              <li><a href="#">Startups</a></li>
+              <li><a href="#">Life</a></li>
+              <li><a href="#">Miscellaneous</a></li>  
+            </ul>
+          </li>
+          <li><a href="projects.html"><h6>WORK &amp; PLAY</h6></a></li>
+          <li><a href="talks.html"><h6>TALKS</h6></a></li>
+          <li><a href="articles.html"><h6>ARTICLES</h6></a></li>
+          <li><a href="press.html"><h6>PRESS</h6></a></li>
+          <li><a href="contact.html"><h6>CONTACT</h6></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="header" class="content"> -->
+
+  <div id="mainContainer">
+    <div class="sectionContainer" id="sectionHome">
+      <div id="homeTextContainer" ng-controller="scrollController">      
+        <h1><span>Hi, I'm Nicholas Kee</span></h1>
+        <h4>Coder | Researcher | Entrepreneur</h4>
+        <div id="text-slider">
+          <div><p>Executive Director at <a href="http://nextgencreators.com">Next Gen Creators</a></p></div>
+          <div><p>President at <a href="#">Junior Achievement Jamaica Alumni Association</a></p></div>
+          <div><p>Went to high school &amp; punted college</p></div>
+
+          <div><p>I spend my time thinking about:<br> #Startups #Tech #EdTech <br>#DataScience #RenewableEnergy #QuantumComputing</p></div>
+          <div><p>Check out all my thoughts on my <a href="blog.html">blog</a></p></div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="sectionContainer" id="sectionNow">
+      <h2><center>Things I'm Up To Now</center></h2>
+      <center>
+        <div class="box"><a href="http://nextgencreators.com"><h4>Next Gen Creators</h4></a></div>
+        <div class="box"><a href="http://watsonunversity.org"><h4>Watson University</h4></a></div>
+        <div class="box"><a href="#"><h4>JAJAA</h4></a></div>
+      </center>
+      
+      <!--<ul>
+        <li></li>
+        <li><a href="http://queensyoungleaders.com"><h4>Queen's Young Leaders</h4></a></li>
+        <li></li>
+      </ul>-->
+    </div>
+
+    <div class="sectionContainer" id="sectionUpcoming">
+      <h2>Upcoming</h2>
+    </div>
+  </div>
+
+  <div class="sectionContainer" id="sectionSubscribe">
+    <h4>Want to keep up with me?</h4>
+    <form>
+      <input type="text" name="name" placeholder="What's Your Name?"><br>
+      <input type="text" name="email" placeholder="Drop Your Email Here"><br>
+    </form>
+    <button type="button" class="success button">Subscribe!</button>
+  </div>
+  
+
+  <div id="copyright">
+    &copy; 2016 Nicholas Kee, All Rights Reserved.
+  </div>
+
+  <div id="connect">
+    Let's connect: Facebook Twitter LinkedIn GitHub DevPost Medium Email
+  </div>
+  <!-- End of page wrapper -->
+
+  <script type="text/javascript" src="resources/javascript.js"></script>
+  <script>$(document).foundation();</script>
+</body>
+</html>
+
+

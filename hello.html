@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>My Sample HTML page</title>
+			<style type="text/css" media="screen">
+			h1{
+				font-size: 20px;
+				border-bottom: 1px solid #cccccc;
+			}
+			p{
+				padding: 10px;
+				background-color: papayaWhip;
+			}
+			.special{
+				border: 1px solid green;
+			}
+			#user-name{
+				font-weight: bold;
+			}
+			</style>
+	</head>
+	<body>
+		<h1>Hello <em>World</em>!</h1>
+			<p class="special">My name is <span id="user-name">Nicholas.</span></p>
+			<p>I like:</p>
+			<ol>
+				<li>Coding</li>
+				<li>Public Speaking</li>
+				<li>Leading</li>
+				<li>Traveling</li>
+			</ol>
+			<form>What's your favorite thing to do?
+				<ol>
+					<li><input></li>
+
+
+				</ol>
+				<p><input></p>
+
+			</form>
+			<p>I need to start earning money now in order to survive</p>
+
+
+	</body>
+	<script>
+		function replaceName() {
+			var myNewName = window.prompt('Pick a new name!');
+			document.getElementById('user-name').innerHTML = myNewName;
+		}
+		document.onclick = replaceName;
+	</script>
+	
+</html>

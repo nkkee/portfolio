@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!-- For front end development, use: HTML Boilerplate, Foundation by Zurb, Motion UI by Zurb (for CSS animation), and Greensock GSap (for Javascript animation) -->
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Kee</title>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script src="resources/foundation/js/vendor/jquery.js" charset="utf-8"></script>
+      <script src="resources/foundation/js/vendor/foundation.min.js" charset="utf-8"></script>
+      <script src="resources/javascript.js" charset="utf-8"></script>
+     <link rel="stylesheet" type="text/css" href="resources/foundation/css/foundation.css">
+     <link rel="stylesheet" type="text/css" href="resources/foundation/css/app.css">
+     <!-- <link rel="stylesheet" href="resources/layout.css" type="text/css"> -->
+  </head>
+
+
+
+  <body>
+    <!--<div class="cover-image">
+      <img src="resources/picturecoc.jpg" alt="My Image" height="900" width="900"> -->
+    
+    <div id="navBar" ng-controller="navBarController">
+            <p class="navBarText" id="navBarTextName" ng-click="scrollTo('#sectionHome')" ng-mouseover="onLinkHover('#navBarTextName')" ng-mouseleave="offLinkHover('#navBarTextName')">Sebastian Kolosa</p>
+            <ul class="navBarTabsList">
+                <li class="navBarElement">
+                    <a class="navBarText" id="navBarTextResume" href="Resume/Resume.pdf" ng-mouseover="onLinkHover('#navBarTextResume')" ng-mouseleave="offLinkHover('#navBarTextResume')">Resume</a>
+                </li>
+                <li class="navBarElement">
+                    <p class="navBarText" id="navBarTextAbout" ng-click="scrollTo('#sectionAbout')" ng-mouseover="onLinkHover('#navBarTextAbout')" ng-mouseleave="offLinkHover('#navBarTextAbout')">About</p>
+                </li>
+                <li class="navBarElement">
+                    <p class="navBarText" id="navBarTextProjects" ng-click="scrollTo('#sectionProjects')" ng-mouseover="onLinkHover('#navBarTextProjects')" ng-mouseleave="offLinkHover('#navBarTextProjects')">Projects</p>
+                </li>
+                <li class="navBarElement">
+                    <p class="navBarText" id="navBarTextContact" ng-click="scrollTo('#sectionContact')" ng-mouseover="onLinkHover('#navBarTextContact')" ng-mouseleave="offLinkHover('#navBarTextContact')">Contact</p>
+                </li>
+            </ul>
+            <div id="hamburgerCollapseToggle" data-toggle="collapse" aria-expanded="false" data-target="#collapsedNavBarTabContainer" aria-controls="collapsedNavBarTabContainer" ng-mouseover="onHamburgerHover()" ng-mouseleave="offHamburgerHover()">
+                <span class="glyphicon glyphicon-menu-hamburger" id="hamburgerIcon"></span>
+            </div>
+            <div class="panel-collapse collapse hidden-sm hidden-md hidden-lg" id="collapsedNavBarTabContainer" aria-labelledby="hamburgerCollapseToggle">
+                <ul class="list-group">
+                    <a href="Resume/Resume.pdf">
+                        <li class="list-group-item" id="collapsableTextResume" ng-mouseover="onLinkHover('#collapsableTextResume')" ng-mouseleave="offLinkHover('#collapsableTextResume')">Resume</li>
+                    </a>
+                    <li class="list-group-item" id="collapsableTextAbout" ng-click="scrollTo('#sectionAbout')" ng-mouseover="onLinkHover('#collapsableTextAbout')" ng-mouseleave="offLinkHover('#collapsableTextAbout')">About</li>
+                    <li class="list-group-item" id="collapsableTextProjects" ng-click="scrollTo('#sectionProjects')" ng-mouseover="onLinkHover('#collapsableTextProjects')" ng-mouseleave="offLinkHover('#collapsableTextProjects')">Projects</li>
+                    <li class="list-group-item" id="collapsableTextContact" ng-click="scrollTo('#sectionContact')" ng-mouseover="onLinkHover('#collapsableTextContact')" ng-mouseleave="offLinkHover('#collapsableTextContact')">Contact</li>
+                <ul>
+            </div>
+
+    <header>
+      <nav>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><a href="index.html"><h6>HOME</h6></a></li>
+              <li><a href="about.html"><h6>ABOUT</h6></a></li>
+              <li><a href="blog.html"><h6>BLOG</h6></a></li>
+              <li><a href="projects.html"><h6>WORK &amp; PLAY</h6></a></li>
+              <li><a href="talks.html"><h6>TALKS</h6></a></li>
+              <li><a href="articles.html"><h6>ARTICLES</h6></a></li>
+              <li><a href="press.html"><h6>PRESS</h6></a></li>
+              <li><a href="contact.html"><h6>CONTACT</h6></a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+
+      <!-- <div id="header" class="content"> -->
+      <div class="sectionContainer" id="sectionHome">
+                <div class="contentContainer" id="contentHome" style="height: 974px;">
+                    <div id="homeTextContainer" ng-controller="scrollController" class="ng-scope">
+                        <h2>SEBASTIAN KOLOSA</h2>
+                        <p>Student | Designer | Engineer</p>
+                        <a href="https://github.com/Seabsaye" target="_blank">
+                            <i class="fa fa-github-alt homeContactIcon"></i>
+                        </a>
+                        <a href="mailto:sebastian.kolosa@gmail.com" target="_blank">
+                            <i class="fa fa-envelope homeContactIcon" id="homeMailIcon"></i>
+                        </a>
+                        <a href="https://ca.linkedin.com/in/sebastian-kolosa-20236b113" target="_blank">
+                            <i class="fa fa-linkedin homeContactIcon"></i>
+                        </a>
+                        <i class="fa fa-angle-double-down" id="homeArrowDrop" ng-click="scrollTo('#sectionAbout')" ng-mouseover="augmentPosition($event, 'vertical', '5')" ng-mouseleave="augmentPosition($event, 'vertical', '0')" style="position: relative; top: 0px;"></i>
+                    </div>
+                </div>
+            </div>
+      <div class="row">
+        <div class="small-6 large-centered columns">
+          
+          <h2>Hi, I'm Nicholas Kee</h2>
+        </div>
+      </div>
+      
+      <div class="row align-justify">
+        <div class="column small-4"><h4>Executive Director of Next Gen Creators</h4></div>
+        <div class="column small-4"><h4>Coder | Researcher | Entrepreneur</h4></div>
+      </div>
+
+      <div class="row">
+        <div class="small-6 large-centered columns">
+          <h5>TL;DR Blurb:</h5>
+          <p>Went to high school and punted college</p>
+          <p>I spend my time thinking</p> 
+          <p>Things I talk about: #Startups #EdTech #QuantumComputing #DataScience #RenewableEnergy</p>
+          <p>Check out all my thoughts in my <a href="blog.html"><b>blog</b></a></p>
+        </div>
+     </div>
+          
+
+    
+   <!-- <div class="content clearfix"> -->
+      <!-- Page Navigation -->
+      <!--<div id="about"> -->
+      <div class="row">
+        <div class="small-3 small-centered columns"><h4>About</h4></div>
+      </div>
+        
+        <div class="row">
+          <div class="small-2 large-4 columns">
+            <h2>Passion</h2>
+            <p>I love travel<br><br>I love food<br><br>I love Quantum Computing<br><br>I love Data Science<br><br>I love dance<br><br>I love music<br><br>I love 3D &amp; 4D printing</p>
+          </div>
+          <div class="small-4 large-4 columns">
+            <h3>Essence</h3>
+            <p>I have the ability to fall in love with anything relating to the upliftment of youths, the environment or technology. I spend my time traveling and thinking of ways to encourage millennials to pursue their passions and unlock their true potential. I have a knack for embarking on projects that are linked to the things I really care about. I take on a very muti-disciplined approach to work, incorporating lessons learned from past failures, experiences, and teachings.<br><br>Born in the beautiful island of Jamaica, I have grown an obsession with faults of the traditional education system. I believe that it does not leave room for creative freedom, open-mindedness, and change. I am intent on influencing a revolution to bring the system back to its roots of creative expression, empathy, and awareness.<br><br>Instead of heading to college/university after high school, I decided to travel, code, research independently, attend hackathons, and build startups. <br><br><a href="#" target="_blank"><b>Facebook</b></a> <a href="#" target="_blank"><b>LinkedIn</b></a> <a href="#" target="_blank"><b>Twitter</b></a></p>
+          </div>
+          <div class="small-6 large-4 columns">
+            <h3>Work</h3>
+            <p>My work expertise spans across business, technology, science and policy. I started coding at the age of 12 and have bolstered my skills to delve into web development, mobile development, and VR &amp; AR development projects. My focus shifted to independent scientific research in the niches of organic plastics and clean &amp; renewable energy. I have embarked on starting companies in the sectors of education, big data, and 3D printing. I have had the honor of working with NASA, CERN, Red Cross International and the United Nations on energy related projects and policy reforms.<br><br>I now run <a href="http://nextgencreators.com" target="_blank"><b>Next Gen Creators</b></a> - a non-profit organization aimed at promoting and creating opportunities for youths in the Caribbean and Latin America to become actively involved in technology and entrepreneurship -  full time. I also like to work on <a href="projects.html"><b>projects</b></a> on the side in my spare time.<br><br>Aside from my main activities, I serve on the <a href="http://commonwealthyouthcouncil.com" target="_blank"><b>Commonwealth Youth Council</b></a>  committee, <a href="http://queensyoungleaders.com" target="_blank"><b>Queen's Young Leaders</b></a> legacy panel, <a href="#" target="_blank"><b>Junior Achievement Jamaica Alumni Association</b></a> as the President and the <a href="#" target="_blank"><b>Junior Achievement Americas Alumni Association</b></a> as the President.</p>
+          </div>
+        </div>
+        
+        
+      <div id="blog">
+        <h4>Blog</h4>
+        <ul>          
+          <li>Life</li>
+          <li>Travel</li>
+          <li>Coding</li>
+          <li>Startups</li>
+          <li>Miscellaneous</li>
+          <li>My Journey</li>
+        </ul>
+      </div>
+      <div id="talks">
+        <h4>Talks &amp; Workshops</h4>
+        <ul>
+          <li>API Introduction</li>
+          <li>UN Social Good Summit</li>
+        </ul>
+      </div>
+      <div id="recent">
+        <h2>Things I'm up to now</h2>
+        <ul>
+          <li>Next Gen Creators</li>
+          <li>Watson University</li>
+          <li>Clarifai Champions</li>
+          <li>Queen's Young Leaders</li>
+          <li>Coding Projects</li>
+        </ul>
+      </div>
+      <!-- Main content area -->
+     <!-- <div id="main">
+       <h2 id="projects">Projects</h2>
+      
+        <h3>Project #1 Title</h3>
+        <p>Project #1 Description...</p>
+          
+        <h3>Project #2 Title</h3>
+        <p>Project #2 Description...</p>
+
+        <h2 id="hobbies">Hobbies</h2>
+        
+        <p>What else do you do in your spare time?</p>
+        
+        <h3>Item #1 Title</h3>
+        <p>Use this paragraph to explain Item #1</p>
+        <ul>
+          <li>Cool thing I did</li>
+          <li>Another cool thing I did</li>
+          <li>Final cool thing I did</li>
+        </ul>
+
+        <h3>Item #1 Title</h3>
+        <p>Use this paragraph to explain Item #1</p>
+        <ul>
+          <li>Cool thing I did</li>
+          <li>Another cool thing I did</li>
+          <li>Final cool thing I did</li>
+        </ul>
+        
+
+        </ul> 
+      </div> -->
+      <div id="articles">
+        <h4>My Public Articles</h4>
+        <ul>
+          <li>Forbes</li>
+          <li>Huffington Post</li>
+          <li>TechCrunch</li>
+          <li>New York Times</li>
+          <li>Loop Jamaica</li>
+        </ul>
+      </div>
+      <div id="press">
+        <h4>Awards &amp; Press</h4>
+        <ul>
+          <li>Don't Go to School</li>
+          <li>Don't Listen To Your Parents</li>
+          <li>Finding your way</li>
+          <li>This Dropout Knows What He's About</li>
+          <li>Things About Nicholas Kee</li>
+        </ul>
+        <h2>Podcasts</h2>
+        <ul>
+          <li>YOU Effect</li>
+        </ul>
+        <h3>Book Features</h3>
+        <ul>
+          <li>YOU Effect Book</li>
+        </ul>
+        <h2>Want to keep up with my crazy stories?</h2>
+        <h2>Drop your email here: <input> <button>Send me Newsletters</button></h2>
+      </div>
+
+    <div id="contact">
+      <h4>Contact</h4>
+      <p></p>
+    </div>
+
+    <div class="connect">
+      <h2>Let's Connect!</h2>
+      <h3>Email</h3>
+      <h3>Facebook</h3>
+      <h3>Twitter</h3>
+      <h3>LinkedIn</h3>
+      <h3>Medium</h3>
+      <h3>Devpost</h3>
+      <h3>Github</h3>
+    </div>
+
+    <div id="copyright" class="content">
+      &copy; 2016 Nicholas Kee, All Rights Reserved.
+    </div>
+     <!-- End of page wrapper -->
+    
+  </body>
+</html>
+
+<!--
+96,479/year | Expected Net = 31,779 | Minus Car expenses: (31,779 - 5000 = 26,779) | Plus Anticipated Income (Travel + QYL) = 12,672.33 (+- 4,152 = 16,824.33)
+
+5,396/month | Expected Net (for initial) = 
+
+1,349/week
+
+
+
+
+
+Initial Expenses: Tech (10,200) + Watson U (8,000) + Canada Trip (2,000) + New York Trip (2,000) + Investments (2,000) | = 24,200 |+ Post Initial Investments (10,000) + Family Trip (7,000) + Europe Trip (10,000) + LA Trip (4,000) + Argentina Trip (2,000) Local expenses (3,600) + Household expenses (1,500) Clothes (1,000) = 64,700
+
+
+
+
+
+Board Orientation:
+
+Docs: 
+
+Accounting Process GAAP, Storing of Records, Ledgers, Cat. 1: Income from services, Cat. 2: Income from grants, EOY
+
+Project forms
+
+Send docs before hand 
+
+One pager Overview
+
+- Agenda: Analysis of things that we did in the past
+
+- Call for motion: bylaws, registration, changes to docs, appoint temp, appoint temp. chair, notice, articles of association, corporate officers, principal office
+
+Bring Company records to first meeting
+
+Action Item: Purchase Order Book for Steph, Jadan sent Steph a software
+
+-->
+
+
+
