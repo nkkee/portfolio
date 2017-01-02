@@ -1,0 +1,99 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1543" measuredH="818" mockupW="1331" mockupH="817">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="212" y="1" w="1331" h="817" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nicholas%20Kee%0Ahttp%3A//nicholaskee.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="212" y="73" w="1331" h="719" measuredW="1276" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09HOME%2C%20ABOUT%2C%20BLOG%2C%20WORK%20%26%20PLAY%2C%20TALKS%2C%20ARTICLES%2C%20PRESS%2C%20CONTACT</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::LinkBar" x="1113" y="764" w="-1" h="-1" measuredW="423" measuredH="19" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook%2C%20Twitter%2C%20LinkedIn%2C%20Medium%2C%20Github%2C%20Devpost%2C%20Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="219" y="761" w="-1" h="-1" measuredW="195" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Copyright%202016%20Nicholas%20Kee</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="253" y="155" w="-1" h="-1" measuredW="176" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>WORKSHOPS</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="583" y="155" w="-1" h="-1" measuredW="270" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>PANEL%20DISCUSSIONS</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="1001" y="155" w="-1" h="-1" measuredW="150" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>KEYNOTES</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="1279" y="155" w="-1" h="-1" measuredW="223" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>FIRE%20SIDE%20CHATS</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::RoundButton" x="243" y="202" w="197" h="193" measuredW="32" measuredH="32" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::RoundButton" x="620" y="210" w="203" h="185" measuredW="32" measuredH="32" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::RoundButton" x="978" y="210" w="201" h="194" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::RoundButton" x="1292" y="217" w="197" h="193" measuredW="32" measuredH="32" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::RoundButton" x="253" y="457" w="197" h="193" measuredW="32" measuredH="32" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::RoundButton" x="630" y="465" w="203" h="185" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::RoundButton" x="988" y="465" w="201" h="194" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::RoundButton" x="1302" y="472" w="197" h="193" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CTitle%20of%20talk%20//below%20circle%3E%0A%3CSnapshot%20picture%20of%20video%20from%20talk%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::ModalScreen" x="228" y="410" w="-1" h="-1" measuredW="320" measuredH="240" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Arrow" x="337" y="343" w="10" h="67" measuredW="150" measuredH="100" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Expand%20when%20selected</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="243" y="448" w="279" h="165" measuredW="300" measuredH="200" zOrder="18" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

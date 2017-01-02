@@ -1,0 +1,113 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1543" measuredH="818" mockupW="1331" mockupH="817">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="212" y="1" w="1331" h="817" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nicholas%20Kee%0Ahttp%3A//nicholaskee.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="212" y="73" w="1331" h="719" measuredW="1276" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09HOME%2C%20ABOUT%2C%20BLOG%2C%20WORK%20%26%20PLAY%2C%20TALKS%2C%20ARTICLES%2C%20PRESS%2C%20CONTACT</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::LinkBar" x="1113" y="764" w="-1" h="-1" measuredW="423" measuredH="19" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook%2C%20Twitter%2C%20LinkedIn%2C%20Medium%2C%20Github%2C%20Devpost%2C%20Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="219" y="761" w="-1" h="-1" measuredW="195" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Copyright%202016%20Nicholas%20Kee</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::HRule" x="212" y="236" w="1327" h="-1" measuredW="100" measuredH="10" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::HRule" x="212" y="474" w="1327" h="-1" measuredW="100" measuredH="10" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Title" x="706" y="117" w="-1" h="-1" measuredW="359" measuredH="43" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hi%2C%20I%27m%20Nicholas%20Kee</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::SubTitle" x="645" y="169" w="-1" h="-1" measuredW="377" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Coder%20%7C%20Researcher%20%7C%20Entrepreneur</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="696" y="211" w="275" h="25" measuredW="275" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%3CInclude%20all%20existing%20accolades%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Title" x="686" y="261" w="-1" h="-1" measuredW="398" measuredH="43" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Things%20I%27m%20Up%20To%20Now</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::TextArea" x="272" y="319" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Title" x="793" y="484" w="-1" h="-1" measuredW="184" measuredH="43" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Upcoming</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::TextInput" x="553" y="722" w="-1" h="-1" measuredW="133" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>What%27s%20Your%20Name%3F%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::TextInput" x="753" y="722" w="-1" h="-1" measuredW="140" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Drop%20Your%20Email%20Here</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Button" x="939" y="722" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Subscribe</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Paragraph" x="275" y="724" w="239" h="23" measuredW="275" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Want%20to%20keep%20up%20with%20me%3F%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextArea" x="591" y="319" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::TextArea" x="941" y="319" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::TextArea" x="1282" y="319" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextArea" x="272" y="542" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextArea" x="591" y="542" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextArea" x="941" y="542" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::TextArea" x="1282" y="542" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3CActivty%20Box%3E%0A________________%0A%20%0A%3CDetails%3E</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
